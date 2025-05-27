@@ -1,0 +1,6 @@
+{
+  "databaseURL": "https://Oct-ane-s-workspace-8ankrr.us-east-1.xata.sh/db/screvio",
+  "codegen": {
+    "output": "src/xata.ts"
+  }
+}

@@ -51,6 +51,7 @@ declare interface VideoFormValues {
   tags: string;
   visibility: "public" | "private";
 }
+
 declare interface NavbarProps {
   user: User | undefined;
 }
@@ -112,7 +113,8 @@ declare interface ImageWithFallbackProps extends Omit<ImageProps, "src"> {
   src: string | null;
 }
 
-type Visibility = "public" | "private";
+type Visibility = string;
+// type Visibility = "public" | "private";
 
 declare interface VideoDetails {
   videoId: string;
