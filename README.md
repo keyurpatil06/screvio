@@ -1,36 +1,36 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Screvio – Screen Recording & Video Sharing Platform
 
-## Getting Started
+## Description  
+Screvio is a full-stack screen recording and video sharing platform. Built with Next.js and Bunny.net, it enables users to record their screen, upload videos, and share them via unique links. It supports public/private video settings, AI-generated transcripts, metadata access, and a powerful search system for efficient content discovery.
 
-First, run the development server:
+## Features  
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+**Authentication:** Secure user authentication via Better Auth and Google OAuth  
+**Screen Recording:** Capture screen directly in the browser  
+**Video Uploading:** Upload and manage videos with public/private settings  
+**Video Sharing:** Share videos via unique, accessible links  
+**AI Transcripts:** Generate searchable AI-powered transcripts for uploaded videos  
+**Privacy Controls:** Set videos as public or private  
+**Security:** Arcjet integration for bot protection, email validation, and rate limiting  
+**Search Functionality:** Find videos quickly using the built-in search bar  
+**Metadata Access:** View video metadata such as video ID and URL  
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tech Stack  
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Core  
+- **Next.js:** Full-stack React framework  
+- **TypeScript:** Static typing for scalable applications  
+- **Tailwind CSS:** Utility-first CSS framework  
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Authentication & Security  
+- **Better Auth:** TypeScript-first auth 
+- **Arcjet:** Bot protection, rate limiting, and email validation  
 
-## Learn More
+### Video Management  
+- **Bunny.net:** Global CDN, edge storage, adaptive streaming  
+- **Xata:** PostgreSQL with full-text search and real-time branching  
 
-To learn more about Next.js, take a look at the following resources:
+### ORM & Queries  
+- **Drizzle ORM:** Type-safe SQL ORM with migrations and schema management  
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
